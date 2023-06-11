@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-color: #47749c;
+}
+
+/*
+Estudiante #47749c
+Trainee #ddffff
+Junior #eedc9c
+ */
+
+.card {
+  margin: 10px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+}
+
+.col-md-6 {
+  flex-basis: 50%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+
+/*Botón para dropdown*/
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.select-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.select-button::before {
+  content: '\25BC';
+  margin-right: 5px;
+}
+
+.select-button:focus,
+.select-button:hover {
+  outline: none;
+}
+
+.select-button:focus::before,
+.select-button:hover::before {
+  color: #000;
+}
+
+select {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.input-field {
+  height: 40px;
+}
+
+.bto-calculo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #cbe5fe;
+}
